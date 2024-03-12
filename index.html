@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         div::before {
+          content: "Container: ";
+          color: green;
+        }
+        p::before{
+            content: "Paragraph:";
+            color: red;
+        }
+      </style>
+</head>
+<body>
+    <div class="container">This is a Container
+        <p>This is first paragraph.</p>
+        <p>This is second paragraph.</p>
+        <p>This is third paragraph.</p>
+      </div>    
+</body>
+</html>
